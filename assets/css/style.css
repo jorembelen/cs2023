@@ -105,7 +105,7 @@ p {
 }
 
 @font-face {
-    src: url(../fonts/BarlowCondensed-Light.ttf);
+    src: url(../fonts/GothamRounded-Light.ttf);
     font-family: bl;
 }
 
@@ -587,8 +587,8 @@ p {
     line-height: 60px;
     width: 60px;
     height: 60px;
-    background: #772432;
-    border: 2px solid #772432;
+    background: #004165;
+    border: 2px solid #004165;
     /* border: 2px solid #e84545; */
     border-radius: 50%;
     -webkit-transform: rotate(-45deg);
@@ -1833,8 +1833,8 @@ p {
 }
 
 .blog-data a h3 {
-    font-size: 26px;
-    font-family: bb;
+    font-size: 20px;
+    font-family: bl;
     color: #23253b;
     padding: 9px 0 0;
     -webkit-transition: all linear .3s;
@@ -1876,7 +1876,7 @@ p {
 }
 
 .blog-date {
-    background: #e84545;
+    background: #F2DF74;
     width: 80px;
     height: 80px;
     text-align: center;
@@ -1888,12 +1888,12 @@ p {
 
 .blog-date h4 {
     padding-top: 10px;
-    color: white;
+    color: #772432;
     font-family: bb;
 }
 
 .blog-date h5 {
-    color: white;
+    color: #772432;
     font-family: br;
 }
 
@@ -1951,7 +1951,7 @@ p {
 =============================*/
 #copy_right {
     padding: 30px 0;
-    background: #004165;
+    background: #772432;
     /* background: #2a2d48; */
     position: relative;
 }
