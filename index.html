@@ -18,6 +18,29 @@
     <!--main style file-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        @media all and (min-width: 480px) {
+                .deskContent {
+                    display: block;
+                }
+    
+                .phoneContent {
+                    display: none;
+                }
+            }
+    
+            @media all and (max-width: 479px) {
+                .deskContent {
+                    display: none;
+                }
+    
+                .phoneContent {
+                    display: block;
+                }
+            }
+    </style>
+
 </head>
 
 <body>
@@ -66,8 +89,11 @@
             <a href="#banner"><i class="fa fa-rocket" aria-hidden="true"></i></a>
         </div>
         <div class="container zindex">
-            <div class="row">
+            <div class="row deskContent">
                 <img src="assets/img/tm_banner.jpg" alt="banner-img" class="img-fluids">
+            </div>
+            <div class="row phoneContent">
+                <img src="assets/img/tm_banner_mobile.jpg" alt="banner-img" class="img-fluid">
             </div>
         </div>
     </section>
@@ -119,8 +145,8 @@
                         <img src="assets/img/tmc_pic.png" alt="blog-img" class="img-fluid">
                         <div class="blog-data">
                             <div class="blog-date">
-                                <h4>21</h4>
-                                <h5>November</h5>
+                                <h4>11</h4>
+                                <h5>December</h5>
                             </div>
                             <span><i class="fa fa-clock-o" aria-hidden="true"></i> 2:00 - 5:00 PM</span>
                             <a href="#">
@@ -134,8 +160,8 @@
                         <img src="assets/img/tmc_pic2.png" alt="blog-img" class="img-fluid">
                         <div class="blog-data">
                             <div class="blog-date">
-                                <h4>22</h4>
-                                <h5>November</h5>
+                                <h4>12</h4>
+                                <h5>December</h5>
                             </div>
                             <span><i class="fa fa-clock-o" aria-hidden="true"></i> 2:00 - 5:00 PM</span>
                             <a href="#">
